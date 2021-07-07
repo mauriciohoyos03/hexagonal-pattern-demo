@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>com.mauricio.adapter_pattern.adapter.h2db_repository.entity.UserEntity</class-a>
+        <class-b>com.mauricio.adapter_pattern.domain.model.User</class-b>
+        <field>
+            <a>firstName</a>
+            <b>name</b>
+        </field>
+        <field>
+            <a>idCategory</a>
+            <b>idUserType</b>
+        </field>
+    </mapping>
+</mappings>
